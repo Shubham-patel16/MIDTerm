@@ -1,11 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shubham patel</title>
+    <link rel="stylesheet" href="css/styles.css">
+
 </head>
+
 <body>
-    
+    <header class="mb-5 light-gray-header">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="d-flex align-items-center">
+                    <a class="me-3" href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5">HTML5</a>
+                    <a class="me-3" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a>
+                    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a>
+                </div>
+                <div class="d-flex align-items-center">
+                    <div class="btn-group me-2">
+                        <button class="btn btn-light btn-sm" data-bs-theme-value="light">Light</button>
+                    </div>
+                    <div class="btn-group me-2">
+                        <button class="btn btn-secondary btn-sm" data-bs-theme-value="dark">Dark</button>
+                    </div>
+                    <button type="button" class="btn btn-secondary btn-sm">Contact Me</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="container">
+        <div class="row mb-3">
+            <div class="col-12">
+                <h2>Factorial Calculator</h2>
+                <p>Enter a non-negative integer and click Enter.</p>
+            </div>
+            <div class="col-10 d-flex align-items-center">
+                <input id="inputNumber" type="number" min="0" class="form-control" placeholder="Enter an integer">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-2 d-flex justify-content-end align-items-center">
+                <button class="btn btn-secondary" id="enterBtn">Enter</button>
+            </div>
+            <div class="col-10 d-flex align-items-center">
+                <div id="output" class="output-screen p-2">Output will be displayed here…</div>
+            </div>
+        </div>
+    </main>
+    <footer class="text-center light-gray-header mt-3">
+        &copy; Simple Factorial Calculator @2025
+    </footer>
+    <script src="js/index.js"></script>
 </body>
+
 </html>

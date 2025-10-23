@@ -11860,7 +11860,18 @@ textarea.form-control-lg {
   }
 }
 h1, .h1 {
+  font-size: 2rem;
   color: red;
 }
 
-/*# sourceMappingURL=styles.css.map */
+/* Add small styling for output */
+.output-screen {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  min-height: 3rem;
+  background: #f8f9fa;
+}
+
+.light-gray-header {
+  background: #f1f1f1;
+  padding: 1rem 0;
+}

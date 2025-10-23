@@ -1,6 +1,14 @@
 {
+  "name": "midterm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build:css": "sass scss/styles.scss css/styles.css --no-source-map --style=expanded",
+    "watch:css": "sass --watch scss/styles.scss:css/styles.css"
+  },
   "dependencies": {
-    "bootstrap": "^5.3.8",
-    "sass": "^1.93.2"
+    "bootstrap": "^5.3.3",
+    "sass": "^1.79.4"
   }
 }

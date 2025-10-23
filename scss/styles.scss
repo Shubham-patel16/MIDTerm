@@ -1,8 +1,21 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
 
-// Your custom SCSS
+// SCSS requirement: set $primary = red before using Bootstrap variables if needed
 $primary: red;
 
+// Example targeting of h1
 h1 {
+  font-size: 2rem;
   color: $primary;
+}
+
+/* Add small styling for output */
+.output-screen {
+  border: 1px solid rgba(0,0,0,0.1);
+  min-height: 3rem;
+  background: #f8f9fa;
+}
+.light-gray-header {
+  background: #f1f1f1;
+  padding: 1rem 0;
 }
