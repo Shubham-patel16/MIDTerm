@@ -11951,6 +11951,9 @@ footer {
   background-color: #9b9b9b;
   color: #f8f9fa;
 }
+[data-bs-theme=dark] p {
+  color: #212529;
+}
 [data-bs-theme=dark] .output-screen {
   background-color: #fff;
   color: #000000;

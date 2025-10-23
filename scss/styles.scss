@@ -111,7 +111,9 @@ footer {
     background-color: #9b9b9b;
     color: $light-gray;
   }
-
+  p {
+    color: $dark-gray;
+  }
   .output-screen {
     background-color: #fff;
     color: #000000;
